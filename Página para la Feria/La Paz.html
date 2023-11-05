@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Poppins, sans-serif;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+}
+
+.texto {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+.texto p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.imagen {
+    flex: 1;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://lapaz.metro-blog.com/wp-content/uploads/2016/11/la-paz-de-noche-centro.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner-text {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.banner-text h1{
+    color:rgb(255, 255, 255);
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+@media (min-width:768px){
+    .logo{
+        margin-left: 0;
+    }
+    header{
+        height: 100vh;
+    }
+    nav{
+        height: 100px;
+        margin: 0 auto;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .banner-text{
+        padding-top: 250px;
+    }
+    .banner-text h1{
+        font-size: 70px;
+    }
+    
+    .Imagen1{
+        background-position:left;
+        width: 100%;
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid brown;
+    padding: 8px;
+}
+
+#content{
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: perspective(6000px);
+}
+.rueda{
+    margin: 200px 500px;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 200px;
+    animation: giro 10s infinite linear;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+}
+.caja{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+}
+.c1{
+    background-image: url(parque\ madidi1.jpg);
+    background-size: cover;
+    transform: rotateY(0deg) translateZ(280px);
+}
+.c2{
+    background-image: url(madidiZ23.jpg);
+    background-size: cover;
+    transform: rotateY(60deg) translateZ(280px);
+}
+.c3{
+    background-image: url(madidi\ 2.jpg);
+    background-size: cover;
+    transform: rotateY(120deg) translateZ(280px);
+}
+.c4{
+    background-image: url(madidi3.jpg);
+    background-size: cover;
+    transform: rotateY(180deg) translateZ(280px);
+}
+.c5{
+    background-image: url(madidi4.jpg);
+    background-size: cover;
+    transform: rotateY(240deg) translateZ(280px);
+}
+.c6{
+    background-image: url(madidi5.jp.webp);
+    background-size: cover;
+    transform: rotateY(300deg) translateZ(280px);
+}
+@keyframes giro{
+    0%{
+        transform: rotateY(0deg);
+    }
+    16%{
+        transform: rotateY(60deg);
+    }
+    32%{
+        transform: rotateY(120deg);
+    }
+    48%{
+        transform: rotateY(180deg);
+    }
+    64%{
+        transform: rotateY(240deg);
+    }
+    80%{
+        transform: rotateY(300deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+#content{
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: perspective(6000px);
+}
+.rueda{
+    margin: 200px 500px;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 200px;
+    animation: giro 10s infinite linear;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+}
+.caja{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+}
+.p1{
+    background-image: url(copacabana-bolivia.jpg);
+    background-size: cover;
+    transform: rotateY(0deg) translateZ(280px);
+}
+.p2{
+    background-image: url(copa2.jpg);
+    background-size: cover;
+    transform: rotateY(60deg) translateZ(280px);
+}
+.p3{
+    background-image: url(copa3.webp);
+    background-size: cover;
+    transform: rotateY(120deg) translateZ(280px);
+}
+.p4{
+    background-image: url(copa4.webp);
+    background-size: cover;
+    transform: rotateY(180deg) translateZ(280px);
+}
+.p5{
+    background-image: url(copa5.jpg);
+    background-size: cover;
+    transform: rotateY(240deg) translateZ(280px);
+}
+.p6{
+    background-image: url(copa6.webp);
+    background-size: cover;
+    transform: rotateY(300deg) translateZ(280px);
+}
+@keyframes giro{
+    0%{
+        transform: rotateY(0deg);
+    }
+    16%{
+        transform: rotateY(60deg);
+    }
+    32%{
+        transform: rotateY(120deg);
+    }
+    48%{
+        transform: rotateY(180deg);
+    }
+    64%{
+        transform: rotateY(240deg);
+    }
+    80%{
+        transform: rotateY(300deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+#content{
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: perspective(6000px);
+}
+.rueda{
+    margin: 200px 500px;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 200px;
+    animation: giro 10s infinite linear;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+}
+.caja{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+}
+.f1{
+    background-image: url(valle1.jpg);
+    background-size: cover;
+    transform: rotateY(0deg) translateZ(280px);
+}
+.f2{
+    background-image: url(valle1.jpg);
+    background-size: cover;
+    transform: rotateY(60deg) translateZ(280px);
+}
+.f3{
+    background-image: url(valle3.jpg);
+    background-size: cover;
+    transform: rotateY(120deg) translateZ(280px);
+}
+.f4{
+    background-image: url(valle4.jpg);
+    background-size: cover;
+    transform: rotateY(180deg) translateZ(280px);
+}
+.f5{
+    background-image: url(valle5.jpg);
+    background-size: cover;
+    transform: rotateY(240deg) translateZ(280px);
+}
+.f6{
+    background-image: url(valle6.jpg);
+    background-size: cover;
+    transform: rotateY(300deg) translateZ(280px);
+}
+@keyframes giro{
+    0%{
+        transform: rotateY(0deg);
+    }
+    16%{
+        transform: rotateY(60deg);
+    }
+    32%{
+        transform: rotateY(120deg);
+    }
+    48%{
+        transform: rotateY(180deg);
+    }
+    64%{
+        transform: rotateY(240deg);
+    }
+    80%{
+        transform: rotateY(300deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="images/logo.svg" alt="" class="logo">
+            </div>
+        </nav>
+        <div class="banner-text container">
+            <h1>La Paz</h1>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <div class="container">
+                <div class="texto">
+                    <h2>MADIDI</h2>
+                    <p></p>
+                    
+                    <table>
+                        <tr>
+                           <th>UBICACIÓN</th>
+                           <th>HISTORIA</th>
+                           <th>PRECIOS</th>
+                        </tr>
+                        <tr>
+                           <td>El Parque Nacional Madidi se encuentra en el norte de Bolivia, en la región amazónica y abarca parte de los departamentos de La Paz y Beni.</td>
+                           <td>El parque fue establecido en 1995 con el objetivo de preservar la diversidad biológica de la región y proteger los ecosistemas frágiles de la Amazonia boliviana. Es considerado uno de los lugares de mayor biodiversidad en el mundo, albergando una gran cantidad de especies de flora y fauna.</td>
+                           <td>En el Parque Nacional Madidi existen varias opciones de hospedaje, desde lodges ecológicos y albergues comunitarios hasta tours en experiencias de turismo comunitario. Los precios varían dependiendo del tipo de alojamiento y los servicios ofrecidos, pero en general se pueden encontrar opciones desde aproximadamente $50 hasta $200 por noche.</td>
+                        </tr>
+                       </table>
+                    <div id="content">
+                        <div class="rueda">
+                            <div class="caja c1"></div>
+                            <div class="caja c2"></div>
+                            <div class="caja c3"></div>
+                            <div class="caja c4"></div>
+                            <div class="caja c5"></div>
+                            <div class="caja c6"></div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <h2>COPACABANA</h2>
+                    <p></p>
+                    
+                    <table>
+                        <tr>
+                           <th>UBICACIÓN</th>
+                           <th>HISTORIA</th>
+                           <th>PRECIOS</th>
+                        </tr>
+                        <tr>
+                           <td>Copacabana es una ciudad ubicada en la costa del lago Titicaca, en el departamento de La Paz, Bolivia. Se encuentra a unas 155 km de la ciudad de La Paz.</td>
+                           <td>Copacabana es un lugar sagrado para los bolivianos y los pueblos indígenas que habitan en la región. Es conocida por ser el punto de partida para la Isla del Sol, uno de los lugares más importantes en la mitología y la historia precolombina de los incas.</td>
+                           <td>Copacabana ofrece una variedad de opciones de hospedaje, desde hoteles de lujo hasta hostales y albergues económicos. Los precios pueden variar dependiendo de la ubicación, los servicios y la categoría del alojamiento. Los precios pueden oscilar desde aproximadamente $20 hasta $150 por noche.</td>
+                        </tr>
+                       </table>
+                    <div id="content">
+                        <div class="rueda">
+                            <div class="caja p1"></div>
+                            <div class="caja p2"></div>
+                            <div class="caja p3"></div>
+                            <div class="caja p4"></div>
+                            <div class="caja p5"></div>
+                            <div class="caja p6"></div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <h2>VALLE DE LA LUNA</h2>
+                    <p></p>
+                    
+                    <table>
+                        <tr>
+                           <th>UBICACIÓN</th>
+                           <th>HISTORIA</th>
+                           <th>PRECIOS</th>
+                        </tr>
+                        <tr>
+                           <td>El Valle de la Luna se encuentra en la región de La Paz, Bolivia. Está ubicado en la Cordillera Real, cerca de la ciudad de La Paz.</td>
+                           <td>El Valle de la Luna es famoso por su paisaje surrealista, formado por la erosión del viento y el agua a lo largo de milenios. Las formaciones rocosas y el terreno lunar le dieron su nombre.</td>
+                           <td>El Valle de la Luna no cuenta con alojamiento directamente en el área, ya que es un atractivo turístico que se visita generalmente como una excursión de medio día desde la ciudad de La Paz.</td>
+                        </tr>
+                       </table>
+                    <div id="content">
+                        <div class="rueda">
+                            <div class="caja f1"></div>
+                            <div class="caja f2"></div>
+                            <div class="caja f3"></div>
+                            <div class="caja f4"></div>
+                            <div class="caja f5"></div>
+                            <div class="caja f6"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Poppins, sans-serif;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+}
+
+.texto {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+.texto p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.imagen {
+    flex: 1;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: 50vh;
+    background-image: url(potoso-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner-text {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.banner-text h1{
+    color:rgb(255, 255, 255);
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+@media (min-width:768px){
+    .logo{
+        margin-left: 0;
+    }
+    header{
+        height: 100vh;
+    }
+    nav{
+        height: 100px;
+        margin: 0 auto;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .banner-text{
+        padding-top: 250px;
+    }
+    .banner-text h1{
+        font-size: 70px;
+    }
+    
+    .Imagen1{
+        background-position:left;
+        width: 100%;
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid brown;
+    padding: 8px;
+}
+
+#content{
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: perspective(6000px);
+}
+.rueda{
+    margin: 200px 500px;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 200px;
+    animation: giro 10s infinite linear;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+}
+.caja{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+}
+.c1{
+    background-image: url(sal1.jpg);
+    background-size: cover;
+    transform: rotateY(0deg) translateZ(280px);
+}
+.c2{
+    background-image: url(sal2.jpeg);
+    background-size: cover;
+    transform: rotateY(60deg) translateZ(280px);
+}
+.c3{
+    background-image: url(sal3.jpeg);
+    background-size: cover;
+    transform: rotateY(120deg) translateZ(280px);
+}
+.c4{
+    background-image: url(sal4.jpg);
+    background-size: cover;
+    transform: rotateY(180deg) translateZ(280px);
+}
+.c5{
+    background-image: url(sal5.jpg);
+    background-size: cover;
+    transform: rotateY(240deg) translateZ(280px);
+}
+.c6{
+    background-image: url(sal6.jpeg);
+    background-size: cover;
+    transform: rotateY(300deg) translateZ(280px);
+}
+@keyframes giro{
+    0%{
+        transform: rotateY(0deg);
+    }
+    16%{
+        transform: rotateY(60deg);
+    }
+    32%{
+        transform: rotateY(120deg);
+    }
+    48%{
+        transform: rotateY(180deg);
+    }
+    64%{
+        transform: rotateY(240deg);
+    }
+    80%{
+        transform: rotateY(300deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+#content{
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: perspective(6000px);
+}
+.rueda{
+    margin: 200px 500px;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 200px;
+    animation: giro 10s infinite linear;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+}
+.caja{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+}
+.p1{
+    background-image: url(casa1.jpg);
+    background-size: cover;
+    transform: rotateY(0deg) translateZ(280px);
+}
+.p2{
+    background-image: url(casa2.jpg);
+    background-size: cover;
+    transform: rotateY(60deg) translateZ(280px);
+}
+.p3{
+    background-image: url(casa3.jpeg);
+    background-size: cover;
+    transform: rotateY(120deg) translateZ(280px);
+}
+.p4{
+    background-image: url(casa4.jpg);
+    background-size: cover;
+    transform: rotateY(180deg) translateZ(280px);
+}
+.p5{
+    background-image: url(casa5.jpg);
+    background-size: cover;
+    transform: rotateY(240deg) translateZ(280px);
+}
+.p6{
+    background-image: url(casa6.jpg);
+    background-size: cover;
+    transform: rotateY(300deg) translateZ(280px);
+}
+@keyframes giro{
+    0%{
+        transform: rotateY(0deg);
+    }
+    16%{
+        transform: rotateY(60deg);
+    }
+    32%{
+        transform: rotateY(120deg);
+    }
+    48%{
+        transform: rotateY(180deg);
+    }
+    64%{
+        transform: rotateY(240deg);
+    }
+    80%{
+        transform: rotateY(300deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+#content{
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: perspective(6000px);
+}
+.rueda{
+    margin: 200px 500px;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 200px;
+    animation: giro 10s infinite linear;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+}
+.caja{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+}
+.f1{
+    background-image: url(lag1.jpg);
+    background-size: cover;
+    transform: rotateY(0deg) translateZ(280px);
+}
+.f2{
+    background-image: url(lag2.avif);
+    background-size: cover;
+    transform: rotateY(60deg) translateZ(280px);
+}
+.f3{
+    background-image: url(lag3.jpg);
+    background-size: cover;
+    transform: rotateY(120deg) translateZ(280px);
+}
+.f4{
+    background-image: url(lag4.jpg);
+    background-size: cover;
+    transform: rotateY(180deg) translateZ(280px);
+}
+.f5{
+    background-image: url(lag5.jpg);
+    background-size: cover;
+    transform: rotateY(240deg) translateZ(280px);
+}
+.f6{
+    background-image: url(lag6.jpg);
+    background-size: cover;
+    transform: rotateY(300deg) translateZ(280px);
+}
+@keyframes giro{
+    0%{
+        transform: rotateY(0deg);
+    }
+    16%{
+        transform: rotateY(60deg);
+    }
+    32%{
+        transform: rotateY(120deg);
+    }
+    48%{
+        transform: rotateY(180deg);
+    }
+    64%{
+        transform: rotateY(240deg);
+    }
+    80%{
+        transform: rotateY(300deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="images/logo.svg" alt="" class="logo">
+            </div>
+        </nav>
+        <div class="banner-text container">
+            <h1>Potosí</h1>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <div class="container">
+                <div class="texto">
+                    <h2>SALAR DE UYUNI</h2>
+                    <p></p>
+                    
+                    <table>
+                        <tr>
+                           <th>UBICACIÓN</th>
+                           <th>HISTORIA</th>
+                           <th>PRECIOS</th>
+                        </tr>
+                        <tr>
+                           <td>El Salar de Uyuni se encuentra en el departamento de Potosí, Bolivia.</td>
+                           <td>El Salar de Uyuni es el mayor desierto de sal continuo del mundo. Tiene una historia geológica de más de 40,000 años y es considerado un lugar único en el mundo. Actualmente, es uno de los principales destinos turísticos de Bolivia.</td>
+                           <td>En Uyuni, la ciudad base para visitar el Salar, puedes encontrar diferentes opciones de hospedaje, desde hostales sencillos hasta hoteles de mayor categoría. Los precios varían dependiendo de la ubicación y las comodidades del hospedaje.</td>
+                        </tr>
+                       </table>
+                    <div id="content">
+                        <div class="rueda">
+                            <div class="caja c1"></div>
+                            <div class="caja c2"></div>
+                            <div class="caja c3"></div>
+                            <div class="caja c4"></div>
+                            <div class="caja c5"></div>
+                            <div class="caja c6"></div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <h2>CASA DE LA MONEDA</h2>
+                    <p></p>
+                    
+                    <table>
+                        <tr>
+                           <th>UBICACIÓN</th>
+                           <th>HISTORIA</th>
+                           <th>INFORMACIÓN</th>
+                        </tr>
+                        <tr>
+                           <td>La Casa de la Moneda se encuentra en Potosí, Bolivia.</td>
+                           <td>La Casa de la Moneda es un edificio colonial que fue construido en el siglo XVI. Fue utilizado para acuñar monedas durante la época del Virreinato del Perú y es considerado uno de los principales legados de la época colonial en Potosí.</td>
+                           <td>Potosí ofrece diversas opciones de hospedaje, desde hoteles históricos hasta alojamientos más económicos. Los precios varían dependiendo de la ubicación y la calidad del hospedaje.</td>
+                        </tr>
+                       </table>
+                    <div id="content">
+                        <div class="rueda">
+                            <div class="caja p1"></div>
+                            <div class="caja p2"></div>
+                            <div class="caja p3"></div>
+                            <div class="caja p4"></div>
+                            <div class="caja p5"></div>
+                            <div class="caja p6"></div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <h2>LAGUNA COLORADA</h2>
+                    <p></p>
+                    
+                    <table>
+                        <tr>
+                           <th>UBICACIÓN</th>
+                           <th>INFORMACIÓN</th>
+                           <th>DATOS</th>
+                        </tr>
+                        <tr>
+                           <td>La Laguna Colorada se encuentra en la provincia de Sur Lípez, departamento de Potosí, al suroeste de Bolivia.</td>
+                           <td>Pero no siempre tiene el mismo color, pues la variación de las características de sus aguas así como la luz según el momento del día y el clima le confieren tonos diferentes que van de marrones hasta rojos intensos.
+La laguna tiene una superficie de 54 km² y una profundidad promedio de 35 centímetros, por lo que es habitual observar distintas aves posadas en su fondo. Es un lugar de cría para los flamencos andinos, aves migratorias que se juntan en grandes cantidades en estas aguas ricas en minerales, ofreciendo una de las postales más bonitas de la laguna.</td>
+                           <td>La Laguna Colorada está en la Reserva Nacional de Fauna Andina Eduardo Abaroa, en el altiplano potosino de Bolivia y cerca del popular Salar de Uyuni; es un lugar tan espectacular que, aunque acabó siendo descartado, llegó a estar incluido en las primeras fases de la elección de las 7 maravillas naturales del mundo. Y es que se trata de una laguna de notable tamaño (10,7 kilómtros de largo y algo más de 9 y medio de ancho que suponen una superficie de unos 54 kilómetros cuadrados y un perímetro de 35 kilómetros; su profundidad, aunque no es igual en toda la laguna, ronda los 35 centímetros.</td>
+                        </tr>
+                       </table>
+                    <div id="content">
+                        <div class="rueda">
+                            <div class="caja f1"></div>
+                            <div class="caja f2"></div>
+                            <div class="caja f3"></div>
+                            <div class="caja f4"></div>
+                            <div class="caja f5"></div>
+                            <div class="caja f6"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+</body>
+</html>
